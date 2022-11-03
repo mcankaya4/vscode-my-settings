@@ -11,11 +11,62 @@
     "css.validate": false,
     "tailwindCSS.emmetCompletions": true,
     "workbench.productIconTheme": "fluent-icons",
-    "workbench.colorTheme": "GitHub Dark",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 90,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 5,
     "editor.scrollbar.horizontalScrollbarSize": 10,
     "workbench.tree.indent": 4,
+    "terminal.integrated.gpuAcceleration": "off",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "codesnap.backgroundColor": "#abb8c3",
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": false,
+    "better-comments.tags": [
+        {
+          "tag": "!",
+          "color": "#FF2D00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "?",
+          "color": "#3498DB",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "//",
+          "color": "#474747",
+          "strikethrough": true,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "todo",
+          "color": "#FF8C00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "*",
+          "color": "#98C379",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        }
+      ]
 }

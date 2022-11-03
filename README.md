@@ -1,9 +1,14 @@
 ## Kullandığım Eklentiler
 - Auto Rename Tag
 - Fluent Icons
-- Github Theme (Github Dark)
+- Github Theme (Github Dark Dimmed)
 - Live Server
 - PostCSS Language Support
 - Rainbow Brackets
 - Tailwind CSS IntelliSense
 - vscode-icons
+- codeSnap
+- Better Comments
+- htmltagwrap
+- Live Preview
+- Version Lens

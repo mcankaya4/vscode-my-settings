@@ -496,11 +496,6 @@
         "command": "-workbench.action.reopenClosedEditor"
     },
     {
-        "key": "ctrl+shift+g",
-        "command": "-workbench.view.scm",
-        "when": "workbench.scm.active"
-    },
-    {
         "key": "shift+f6",
         "command": "-workbench.action.focusPreviousPart"
     },
@@ -1536,14 +1531,6 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "f1",
-        "command": "-workbench.action.showCommands"
-    },
-    {
-        "key": "shift+cmd+p",
-        "command": "-workbench.action.showCommands"
-    },
-    {
         "key": "cmd+f2",
         "command": "-editor.action.changeAll",
         "when": "editorTextFocus && !editorReadonly"
@@ -1769,10 +1756,6 @@
         "when": "!config.breadcrumbs.enabled"
     },
     {
-        "key": "cmd+m",
-        "command": "editor.action.toggleWordWrap"
-    },
-    {
         "key": "alt+z",
         "command": "-editor.action.toggleWordWrap"
     },
@@ -1783,5 +1766,36 @@
     {
         "key": "cmd+e",
         "command": "editor.action.smartSelect.expand"
+    },
+    {
+        "key": "cmd+-",
+        "command": "codesnap.start"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "cmd+[Slash]",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "cmd+m",
+        "command": "extension.htmlTagWrap",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-extension.htmlTagWrap",
+        "when": "editorTextFocus"
     },
 ]
