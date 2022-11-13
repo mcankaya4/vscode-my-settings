@@ -1,7 +1,8 @@
 ## Kullandığım Eklentiler
+
 - Auto Rename Tag
 - Fluent Icons
-- Github Theme (Github Dark Dimmed)
+- Mirage (High Contrast Theme)
 - Live Server
 - PostCSS Language Support
 - Rainbow Brackets
@@ -12,3 +13,5 @@
 - htmltagwrap
 - Live Preview
 - Version Lens
+- indent-rainbow
+- Settings Cycler
