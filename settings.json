@@ -30,12 +30,11 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Mirage (High-contrast)",
-  "workbench.activityBar.visible": false,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "all",
   "liveServer.settings.donotVerifyTags": true,
   "editor.lineNumbers": "off",
   "editor.folding": true,
-  "editor.glyphMargin": false
+  "editor.glyphMargin": false,
+  "workbench.colorTheme": "Palenight Theme"
 }
