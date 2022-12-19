@@ -1,5 +1,3 @@
-// 20221202102357
-// https://raw.githubusercontent.com/mcankaya4/vscode-my-settings/main/settings.json
 {
   "editor.fontSize": 15,
   "editor.fontFamily": "MesloLGS NF",
@@ -8,6 +6,7 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 15,
   "editor.minimap.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
   "files.autoSave": "afterDelay",
   "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",
@@ -15,19 +14,27 @@
   "tailwindCSS.emmetCompletions": true,
   "workbench.productIconTheme": "fluent-icons",
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 100,
+  "editor.wordWrapColumn": 80,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 5,
   "editor.scrollbar.horizontalScrollbarSize": 10,
   "workbench.tree.indent": 4,
   "terminal.integrated.gpuAcceleration": "off",
   "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.fontLigatures": true,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "all",
-  "editor.lineNumbers": "off",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.lineNumbers": "on",
   "editor.folding": true,
   "editor.glyphMargin": false,
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorTheme": "GrunBoxTheme",
+  "vsicons.dontShowNewVersionMessage": false,
+  "editor.linkedEditing": true,
+  "RainbowBrackets.depreciation-notice": false
 }
